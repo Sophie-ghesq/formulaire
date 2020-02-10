@@ -1,0 +1,19 @@
+input{
+	display: block;
+}
+
+
+/*
+#buttonsubmit{
+	display: none;
+}
+*/
+
+.asterix{
+	color: red;
+	font-weight: bold;
+	display: none;
+}
+.obelix{
+	font-weight: bold;
+}

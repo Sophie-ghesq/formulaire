@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js10/02</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>s'inscrire</h1>
+	<form method="GET" action="sinscrire.php">
+		<input type="email" placeholder="saisir un email" name="email" id="email" onmouseleave="controlesaisie()"><span id="spanemail" class="asterix">***</span>
+		<input type="text" placeholder="saisir le mot de passe" name="password" id="password" onmouseleave="controlesaisie()"><span id="spanmdp" class="asterix">***</span>
+		<input type="text" placeholder="confirmer le mot de passe" name="confirmpassword" id="confirmpassword" onchange="controlesaisie()"><span id="spanmdpconfirm" class="asterix">***</span>
+		<input type="checkbox" name="" id="newsletter" checked> j'accepte de recevoir la newsletters.
+		<input type="checkbox" name="" id="cgv" ><span id="spancgv" class="obelix">cgv</span> 
+		<input type="submit" value="envoyer" name="submit" id="buttonsubmit" onmouseleave="onclicksubmit();">
+	</form>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
